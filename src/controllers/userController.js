@@ -1,6 +1,6 @@
 const User = require('../models/userModel')
 const { sign } = require('../lib/jwt')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const ApiError = require('../error/ApiError')
 
 
